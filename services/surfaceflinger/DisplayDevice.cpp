@@ -174,7 +174,7 @@ DisplayDevice::DisplayDevice(
     setProjection(DisplayState::eOrientationDefault, mViewport, mFrame);
 
 #ifdef NUM_FRAMEBUFFER_SURFACE_BUFFERS
-    mSurface->allocateBuffers();
+    //mSurface->allocateBuffers();
 #endif
 }
 
